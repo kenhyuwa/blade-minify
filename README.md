@@ -13,7 +13,7 @@
 You can install the package via composer:
 
 ```bash
-$ composer require kenhyuwa/blade-minify
+$ composer require ken/blade-minify
 ```
 
 Next, the \Ken\BladeMinify\Middleware\Minify::class - middleware must be registered in the kernel:
