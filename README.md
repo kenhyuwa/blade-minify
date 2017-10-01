@@ -6,7 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/renatomarinho/laravel-blade-minify/downloads)](https://packagist.org/packages/renatomarinho/laravel-blade-minify)
 
 ### Simple package to minify HTML output on demand which results on a 35%+ optimization.
-### Packages backup from RenatoMarinho\laravel-page-speed. Because I Just need this packases simple not complete packages like RenatoMarinho\laravel-page-speed
+### Packages backup from RenatoMarinho\laravel-page-speed. Because I Just need this packages simple not complete packages like RenatoMarinho\laravel-page-speed
 
 ## Installation is easy
 
