@@ -40,5 +40,12 @@
     "fix-style": "phpcbf -p --standard=PSR2 src/"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ken\\BladeMinify\\ServiceProvider"
+            ]
+        }
+    }
 }
