@@ -37,7 +37,7 @@ class Minify
             "/> +</" => '><',
         ];
 
-        if(strpos($buffer,'<pre') !== false || strpos($buffer,'&lt;pre') !== false) {
+        if(strpos($buffer,'<pre') !== false || strpos($buffer,'&lt;pre') !== false || strpos($buffer,'//') !== false) {
             $replace = [
                 '/<!--[^\[](.*?)[^\]]-->/s' => '',
                 "/<\?php/" => '<?php ',
