@@ -26,7 +26,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Ken\\BladeMinify\\Test\\": "tests"
+      "Ken\\BladeMinify\\Tests\\": "tests"
     }
   },
   "require-dev": {
@@ -36,8 +36,8 @@
   },
   "scripts": {
     "test": "phpunit",
-    "check-style": "phpcs -p --standard=PSR2 src/",
-    "fix-style": "phpcbf -p --standard=PSR2 src/"
+    "check-style": "phpcs -p --standard=PSR2 src/ tests/",
+    "fix-style": "phpcbf -p --standard=PSR2 src/ tests/"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
